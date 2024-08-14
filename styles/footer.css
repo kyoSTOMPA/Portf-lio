@@ -1,0 +1,43 @@
+.last-content {
+  display: grid;
+  gap: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple {
+  color: var(--brand-color-purple);
+  padding-top: 128px;
+}
+
+#ul2 {
+  display: grid;
+  margin-top: 48px;
+  align-items: center;
+  justify-content: center;
+  font: var(--text-md);
+  gap: 8px;
+  list-style: none;
+  padding-bottom: 200px;
+  
+  
+}
+
+.box-li2 {
+  display: flex;
+  background: var(--base-color-gray-300);
+  border-radius: 8px;
+  height: 68px;
+  align-items: center;
+  justify-content: left;
+  padding-left: 20px; 
+  gap: 12px;
+  height: 68px;
+  width: 400px;   
+}
+
+.svg-align {
+  margin-left: auto;
+  margin-right: 20px;
+}

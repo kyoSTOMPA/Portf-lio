@@ -1,0 +1,57 @@
+header {
+  margin-bottom: 56px;
+  margin-top: 0px;
+}
+
+#intro {  
+  margin: 120px 163px 129px 163px; 
+  text-align: center; 
+}
+
+p:nth-child(2) {
+  font: var(--subtitle);
+}
+
+.color-red {
+  color: var(--brand-color-red);
+}
+
+#martina {
+  color: var(--brand-color-red);
+}
+
+p:nth-child(4) {
+  margin-bottom: 80px;
+  color: var(--base-color-gray-400);
+  font: var(--text-sm);
+}
+
+#ul1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.box-li1 {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  font: var(--text-md);
+  padding: 16px;
+  gap: 8px;
+
+  list-style: none;  
+
+
+  background: var(--base-color-gray-300);
+  border-radius: 999px;
+  height: 40px;  
+}
+
+button {  
+  margin-top: 94px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
